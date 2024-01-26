@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="This calculator allows you to make arithmetic operations, moreover you can see all the opeartions you have done.">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <aside class="outcome">
+
+                <details class="outcome__board" id="showResult">
+                    <summary class="outcome__title">Outcome</summary>
+                    <ol class="outcome__table">
+
+                    </ol>
+                </details>
+
+            </aside>
+
+            <section class="box-calculator">
+                <div class="calculator">
+                    <input class="calculator__text" type="text" id="field">
+                    <div class="button" id="buttons">
+                        <button class="button__style" name="1">1</button>
+                        <button class="button__style" name="2">2</button>
+                        <button class="button__style" name="3">3</button>
+                        <button class="button__style" name="/">/</button>
+
+                        <button class="button__style" name="4">4</button>
+                        <button class="button__style" name="5">5</button>
+                        <button class="button__style" name="6">6</button>
+                        <button class="button__style" name="*">*</button>
+
+                        <button class="button__style" name="7">7</button>
+                        <button class="button__style" name="8">8</button>
+                        <button class="button__style" name="9">9</button>
+                        <button class="button__style" name="-">-</button>
+
+                        <button id="remove" class="button__remove" name="CE">CE</button>
+                        <button class="button__style" name="0">0</button>
+                        <button class="button__style" name=".">.</button>
+                        <button class="button__style" name="+">+</button>
+                    </div>
+                    <button id="makeOperation" class="calculator__result" name="=">=</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
